@@ -1,0 +1,14 @@
+.style{
+    background-color: #000000;
+}
+
+#header-part{
+    background-color: #230312;
+    color: white;
+}
+#header-part .nav-link{
+    color: white
+}
+.banner_text{
+    color: white;
+}
