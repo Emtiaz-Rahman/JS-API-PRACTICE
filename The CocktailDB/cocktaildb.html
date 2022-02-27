@@ -78,9 +78,15 @@
         </div>
 
         <div class="input-group w-25 mx-auto mb-3">
-            <input type="text" class="form-control" placeholder="Search for A Cocktail"
+            <input id="search-field" type="text" class="form-control" placeholder="Search for A Cocktail"
                 aria-label="Recipient's username" aria-describedby="button-addon2">
-            <button class="btn btn-outline-secondary" type="button" id="button-addon2">Search</button>
+            <button onclick="searchCocktail()" class="btn btn-outline-secondary" type="button"
+                id="button-addon2">Search</button>
+        </div>
+
+        <div id="search-result"class="row row-cols-1 row-cols-md-3  row-cols-xl-4 g-4">
+          
+
         </div>
 
 
